@@ -13,7 +13,7 @@
 <p align="left">
 <a href="https://twitter.com/@nozim_dev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@nozim_dev" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/nozimbek-dev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nozimbek-dev" height="30" width="40" /></a>
-<a href="https://fb.com/nozim.dev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="nozim.dev" height="30" width="40" /></a>
+<a href="https://t.me/nozim.dev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/telegram.svg" alt="nozim.dev" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
