@@ -1,0 +1,28 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 0 1 1 *"  # Har yili 1-yanvarda yangilanadi
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Calculate experience
+        run: |
+          START_YEAR=2022  # Dasturlashni boshlagan yilingiz
+          CURRENT_YEAR=$(date +%Y)
+          YEARS_EXPERIENCE=$((CURRENT_YEAR - START_YEAR))
+          sed -i "s/{{yearsExperience}}/$YEARS_EXPERIENCE/" README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Updated years of experience"
+          git push
